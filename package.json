@@ -16,7 +16,8 @@
     "storybook-watch": "sb-rn-watcher --config-path .ondevice",
     "storybook": "sb-rn-get-stories --config-path .ondevice && STORYBOOK_ENABLED='true' expo start",
     "storybook:ios": "sb-rn-get-stories --config-path .ondevice && STORYBOOK_ENABLED='true' expo start --ios",
-    "storybook:android": "sb-rn-get-stories --config-path .ondevice && STORYBOOK_ENABLED='true' expo start --android"
+    "storybook:android": "sb-rn-get-stories --config-path .ondevice && STORYBOOK_ENABLED='true' expo start --android",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.17.3",
@@ -48,8 +49,12 @@
     "@storybook/react-native": "^6.5.1",
     "@types/react": "~18.0.27",
     "babel-loader": "^8.2.3",
+    "babel-plugin-inline-dotenv": "^1.7.0",
     "babel-plugin-react-docgen-typescript": "^1.5.1",
     "babel-plugin-react-native-web": "^0.18.10",
+    "chromatic": "^6.17.3",
     "typescript": "^4.9.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "expo-template-storybook@1.3.2"
 }
