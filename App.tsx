@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Storybook test</Text>
+      <Text>Test stories snapshot 1</Text>
     </View>
   );
 }
