@@ -5,7 +5,7 @@ import React from 'react';
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Test stories snapshot 2</Text>
+      <Text>Test stories snapshot 4</Text>
     </View>
   );
 }
