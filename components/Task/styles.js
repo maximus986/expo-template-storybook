@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     flexWrap: 'nowrap',
     height: 48,
     width: '100%',
-    backgroundColor: 'grey',
+    backgroundColor: 'white',
     alignItems: 'center',
     paddingHorizontal: 10,
     justifyContent: 'space-around',
