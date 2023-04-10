@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
+import React from 'react';
 
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Test stories snapshot 1</Text>
+      <Text>Test stories snapshot 2</Text>
     </View>
   );
 }
